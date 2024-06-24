@@ -1,0 +1,9 @@
+[package]
+name = "memory_optimizer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dirs = "5"
+winapi = { version = "0.3", features = ["psapi", "processthreadsapi", "handleapi", "fileapi", "minwinbase", "winnt"] }
+chrono = "0.4"
